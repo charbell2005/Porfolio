@@ -1,0 +1,62 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#bg)"/>
+  <rect x="66" y="54" width="1068" height="642" rx="34" fill="rgba(4,12,24,0.92)" stroke="rgba(255,255,255,0.10)"/>
+
+  <rect x="66" y="54" width="1068" height="62" rx="34" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="102" cy="85" r="8" fill="#22d3ee"/>
+  <circle cx="126" cy="85" r="8" fill="#14b8a6"/>
+  <circle cx="150" cy="85" r="8" fill="#0ea5e9"/>
+  <text x="184" y="92" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif" font-weight="700">Stock Prediction Workspace</text>
+
+  <text x="102" y="170" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="2">MODEL SUMMARY</text>
+  <text x="102" y="220" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">Forecasting</text>
+  <text x="102" y="276" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">market direction</text>
+  <text x="102" y="332" fill="#cbd5e1" font-size="24" font-family="Arial, sans-serif">BiLSTM + Attention · Technical indicators · Confidence bands</text>
+
+  <rect x="102" y="380" width="250" height="120" rx="22" fill="rgba(34,211,238,0.08)" stroke="rgba(34,211,238,0.24)"/>
+  <text x="128" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">CURRENT PRICE</text>
+  <text x="128" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">$181.27</text>
+  <text x="128" y="492" fill="#22c55e" font-size="18" font-family="Arial, sans-serif">+8.03% today</text>
+
+  <rect x="372" y="380" width="250" height="120" rx="22" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.22)"/>
+  <text x="398" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">MODEL CONFIDENCE</text>
+  <text x="398" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">78.4%</text>
+  <text x="398" y="492" fill="#14b8a6" font-size="18" font-family="Arial, sans-serif">RMSE-aware estimate</text>
+
+  <rect x="642" y="380" width="356" height="120" rx="22" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.20)"/>
+  <text x="668" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">FORECAST HORIZON</text>
+  <text x="668" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">1 Year</text>
+  <text x="668" y="492" fill="#60a5fa" font-size="18" font-family="Arial, sans-serif">Daily projection with uncertainty</text>
+
+  <rect x="102" y="528" width="896" height="116" rx="24" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="128" y="560" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">FORECAST CHART</text>
+  <rect x="128" y="576" width="848" height="2" fill="rgba(148,163,184,0.20)"/>
+  <path d="M128 620 L204 600 L280 610 L356 586 L432 592 L508 560 L584 548 L660 520 L736 494 L812 470 L888 440 L976 404" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 624 L204 612 L280 620 L356 604 L432 608 L508 586 L584 578 L660 558 L736 540 L812 522 L888 500 L976 472" stroke="rgba(34,211,238,0.28)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 620 L204 590 L280 575 L356 558 L432 540 L508 520 L584 500 L660 478 L736 452 L812 430 L888 402 L976 370" stroke="#14b8a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+
+  <g fill="#0ea5e9" opacity="0.85">
+    <rect x="220" y="618" width="14" height="18" rx="4"/>
+    <rect x="336" y="604" width="14" height="32" rx="4"/>
+    <rect x="452" y="594" width="14" height="42" rx="4"/>
+    <rect x="568" y="568" width="14" height="68" rx="4"/>
+    <rect x="684" y="534" width="14" height="102" rx="4"/>
+    <rect x="800" y="498" width="14" height="138" rx="4"/>
+  </g>
+
+  <g fill="#22d3ee" opacity="0.9">
+    <circle cx="128" cy="620" r="6"/>
+    <circle cx="356" cy="558" r="6"/>
+    <circle cx="584" cy="500" r="6"/>
+    <circle cx="812" cy="430" r="6"/>
+    <circle cx="976" cy="370" r="6"/>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03111A"/>
+      <stop offset="0.45" stop-color="#082236"/>
+      <stop offset="1" stop-color="#082E2A"/>
+    </linearGradient>
+  </defs>
+</svg>

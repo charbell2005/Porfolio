@@ -1,0 +1,107 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#bg)"/>
+  <rect x="74" y="64" width="1052" height="622" rx="30" fill="#09111d" stroke="rgba(255,255,255,0.08)"/>
+
+  <rect x="74" y="64" width="1052" height="52" rx="30" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="108" cy="90" r="7" fill="#f59e0b"/>
+  <circle cx="128" cy="90" r="7" fill="#8b5cf6"/>
+  <circle cx="148" cy="90" r="7" fill="#64748b"/>
+  <text x="176" y="96" fill="#e2e8f0" font-size="18" font-family="Arial, sans-serif">Maze Pathfinding Visualizer</text>
+
+  <text x="116" y="168" fill="#cbd5e1" font-size="13" font-family="Arial, sans-serif" letter-spacing="1.8">ALGORITHM COMPARISON</text>
+  <text x="116" y="218" fill="#f8fafc" font-size="46" font-family="Arial, sans-serif" font-weight="700">Real-time maze</text>
+  <text x="116" y="264" fill="#f8fafc" font-size="46" font-family="Arial, sans-serif" font-weight="700">pathfinding demo</text>
+  <text x="116" y="316" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">BFS · DFS · A* · live node count · best-path selection</text>
+
+  <rect x="116" y="370" width="566" height="282" rx="24" fill="#0b1624" stroke="rgba(148,163,184,0.14)"/>
+  <rect x="142" y="396" width="180" height="206" rx="16" fill="#0f172a" stroke="rgba(148,163,184,0.10)"/>
+  <rect x="334" y="396" width="180" height="206" rx="16" fill="#111827" stroke="rgba(148,163,184,0.10)"/>
+  <rect x="526" y="396" width="130" height="206" rx="16" fill="#0f172a" stroke="rgba(148,163,184,0.10)"/>
+
+  <text x="156" y="424" fill="#e2e8f0" font-size="12" font-family="Arial, sans-serif">BFS</text>
+  <text x="348" y="424" fill="#e2e8f0" font-size="12" font-family="Arial, sans-serif">DFS</text>
+  <text x="540" y="424" fill="#e2e8f0" font-size="12" font-family="Arial, sans-serif">A*</text>
+
+  <g opacity="0.95">
+    <rect x="154" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="180" y="440" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="206" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="232" y="440" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="258" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="154" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="180" y="466" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="206" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="232" y="466" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="258" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="154" y="492" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="180" y="492" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="206" y="492" width="22" height="22" rx="5" fill="#22d3ee"/>
+    <rect x="232" y="492" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="258" y="492" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="154" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="180" y="518" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="206" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="232" y="518" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="258" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+
+    <rect x="346" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="372" y="440" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="398" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="424" y="440" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="450" y="440" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="346" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="372" y="466" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="398" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="424" y="466" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="450" y="466" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="346" y="492" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="372" y="492" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="398" y="492" width="22" height="22" rx="5" fill="#8b5cf6"/>
+    <rect x="424" y="492" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="450" y="492" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="346" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="372" y="518" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="398" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+    <rect x="424" y="518" width="22" height="22" rx="5" fill="#ffffff"/>
+    <rect x="450" y="518" width="22" height="22" rx="5" fill="#1f2937"/>
+
+    <rect x="538" y="440" width="20" height="20" rx="5" fill="#f59e0b"/>
+    <rect x="562" y="440" width="20" height="20" rx="5" fill="#111827"/>
+    <rect x="586" y="440" width="20" height="20" rx="5" fill="#ffffff"/>
+    <rect x="538" y="464" width="20" height="20" rx="5" fill="#111827"/>
+    <rect x="562" y="464" width="20" height="20" rx="5" fill="#ffffff"/>
+    <rect x="586" y="464" width="20" height="20" rx="5" fill="#111827"/>
+    <rect x="538" y="488" width="20" height="20" rx="5" fill="#ffffff"/>
+    <rect x="562" y="488" width="20" height="20" rx="5" fill="#111827"/>
+    <rect x="586" y="488" width="20" height="20" rx="5" fill="#22d3ee"/>
+    <rect x="538" y="512" width="20" height="20" rx="5" fill="#111827"/>
+    <rect x="562" y="512" width="20" height="20" rx="5" fill="#ffffff"/>
+    <rect x="586" y="512" width="20" height="20" rx="5" fill="#111827"/>
+  </g>
+
+  <path d="M165 450 H244 V476 H270 V502 H296 V528 H322" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M356 530 H382 V504 H408 V478 H434 V452 H460" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M548 452 H574 V478 H600 V504" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="165" cy="450" r="10" fill="#22c55e"/>
+  <circle cx="322" cy="528" r="10" fill="#ef4444"/>
+  <circle cx="548" cy="452" r="10" fill="#22d3ee"/>
+  <circle cx="600" cy="504" r="10" fill="#f59e0b"/>
+
+  <rect x="724" y="168" width="260" height="72" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(148,163,184,0.12)"/>
+  <text x="750" y="210" fill="#e2e8f0" font-size="19" font-family="Arial, sans-serif" font-weight="700">BFS / DFS / A* compare</text>
+  <rect x="724" y="264" width="260" height="72" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(148,163,184,0.12)"/>
+  <text x="750" y="306" fill="#e2e8f0" font-size="19" font-family="Arial, sans-serif" font-weight="700">Live node animation</text>
+  <rect x="724" y="360" width="260" height="72" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(148,163,184,0.12)"/>
+  <text x="750" y="402" fill="#e2e8f0" font-size="19" font-family="Arial, sans-serif" font-weight="700">Best path highlight</text>
+  <rect x="724" y="456" width="260" height="72" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(148,163,184,0.12)"/>
+  <text x="750" y="498" fill="#e2e8f0" font-size="19" font-family="Arial, sans-serif" font-weight="700">Step-by-step metrics</text>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040b15"/>
+      <stop offset="0.5" stop-color="#0a1a2d"/>
+      <stop offset="1" stop-color="#171433"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#bg)"/>
+  <rect x="66" y="54" width="1068" height="642" rx="34" fill="rgba(4,12,24,0.92)" stroke="rgba(255,255,255,0.10)"/>
+
+  <rect x="66" y="54" width="1068" height="62" rx="34" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="102" cy="85" r="8" fill="#a78bfa"/>
+  <circle cx="126" cy="85" r="8" fill="#22d3ee"/>
+  <circle cx="150" cy="85" r="8" fill="#818cf8"/>
+  <text x="184" y="92" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif" font-weight="700">Inventory Management Dashboard</text>
+
+  <text x="102" y="170" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="2">PROJECT OVERVIEW</text>
+  <text x="102" y="220" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">Full-stack inventory</text>
+  <text x="102" y="276" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">and order tracking</text>
+  <text x="102" y="332" fill="#cbd5e1" font-size="24" font-family="Arial, sans-serif">React + Vite · ASP.NET Core · LiteDB · REST APIs</text>
+
+  <rect x="102" y="380" width="250" height="120" rx="22" fill="rgba(167,139,250,0.08)" stroke="rgba(167,139,250,0.24)"/>
+  <text x="128" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">PRODUCTS</text>
+  <text x="128" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">CRUD</text>
+  <text x="128" y="492" fill="#a78bfa" font-size="18" font-family="Arial, sans-serif">Full create, read, update, delete</text>
+
+  <rect x="372" y="380" width="250" height="120" rx="22" fill="rgba(34,211,238,0.08)" stroke="rgba(34,211,238,0.22)"/>
+  <text x="398" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">DASHBOARD</text>
+  <text x="398" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">Analytics</text>
+  <text x="398" y="492" fill="#22d3ee" font-size="18" font-family="Arial, sans-serif">Real-time inventory stats</text>
+
+  <rect x="642" y="380" width="356" height="120" rx="22" fill="rgba(129,140,248,0.08)" stroke="rgba(129,140,248,0.20)"/>
+  <text x="668" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">STACK</text>
+  <text x="668" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">Full Stack</text>
+  <text x="668" y="492" fill="#818cf8" font-size="18" font-family="Arial, sans-serif">React frontend + ASP.NET API</text>
+
+  <rect x="102" y="528" width="896" height="116" rx="24" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="128" y="560" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">FEATURES</text>
+  <rect x="128" y="576" width="848" height="2" fill="rgba(148,163,184,0.20)"/>
+
+  <g>
+    <rect x="128" y="594" width="180" height="28" rx="14" fill="rgba(167,139,250,0.12)" stroke="rgba(167,139,250,0.25)"/>
+    <text x="168" y="613" fill="#c4b5fd" font-size="13" font-family="Arial, sans-serif">Product Management</text>
+
+    <rect x="324" y="594" width="180" height="28" rx="14" fill="rgba(34,211,238,0.12)" stroke="rgba(34,211,238,0.25)"/>
+    <text x="360" y="613" fill="#67e8f9" font-size="13" font-family="Arial, sans-serif">Order Tracking</text>
+
+    <rect x="520" y="594" width="180" height="28" rx="14" fill="rgba(129,140,248,0.12)" stroke="rgba(129,140,248,0.25)"/>
+    <text x="560" y="613" fill="#a5b4fc" font-size="13" font-family="Arial, sans-serif">Supplier Directory</text>
+
+    <rect x="716" y="594" width="200" height="28" rx="14" fill="rgba(168,162,158,0.12)" stroke="rgba(168,162,158,0.25)"/>
+    <text x="748" y="613" fill="#d6d3d1" font-size="13" font-family="Arial, sans-serif">API Fallback Handling</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0520"/>
+      <stop offset="0.45" stop-color="#0c1a30"/>
+      <stop offset="1" stop-color="#081828"/>
+    </linearGradient>
+  </defs>
+</svg>

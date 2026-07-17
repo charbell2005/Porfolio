@@ -1,0 +1,20 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#paint0_linear_1_2)"/>
+  <rect x="140" y="120" width="920" height="510" rx="40" fill="rgba(2,6,23,0.5)" stroke="rgba(255,255,255,0.14)"/>
+  <circle cx="248" cy="226" r="46" fill="rgba(34,211,238,0.25)"/>
+  <circle cx="952" cy="534" r="60" fill="rgba(96,165,250,0.22)"/>
+  <text x="220" y="220" fill="white" font-size="52" font-family="Arial, sans-serif" font-weight="700">AI Chatbot</text>
+  <text x="220" y="282" fill="#cbd5e1" font-size="28" font-family="Arial, sans-serif">React + Python | AI / NLP</text>
+  <rect x="220" y="340" width="760" height="92" rx="24" fill="rgba(255,255,255,0.07)"/>
+  <text x="255" y="395" fill="#e2e8f0" font-size="26" font-family="Arial, sans-serif">Hello, how can I help you today?</text>
+  <rect x="310" y="468" width="650" height="92" rx="24" fill="rgba(34,211,238,0.15)"/>
+  <text x="350" y="523" fill="#f8fafc" font-size="26" font-family="Arial, sans-serif">I can answer questions and guide workflows.</text>
+  <text x="220" y="610" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">Final Year Project • Conversational interface</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+</svg>

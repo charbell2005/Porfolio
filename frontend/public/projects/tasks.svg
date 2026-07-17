@@ -1,0 +1,22 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#paint0_linear_1_2)"/>
+  <rect x="160" y="130" width="880" height="490" rx="36" fill="rgba(2,6,23,0.52)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="220" y="215" fill="white" font-size="52" font-family="Arial, sans-serif" font-weight="700">Task Manager</text>
+  <text x="220" y="275" fill="#cbd5e1" font-size="28" font-family="Arial, sans-serif">React + Node.js + Authentication</text>
+  <rect x="220" y="335" width="760" height="80" rx="22" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="258" cy="375" r="16" fill="#22c55e"/>
+  <text x="300" y="384" fill="#e2e8f0" font-size="24" font-family="Arial, sans-serif">Review project requirements</text>
+  <rect x="220" y="435" width="760" height="80" rx="22" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="258" cy="475" r="16" fill="#38bdf8"/>
+  <text x="300" y="484" fill="#e2e8f0" font-size="24" font-family="Arial, sans-serif">Sync with database</text>
+  <rect x="220" y="535" width="760" height="80" rx="22" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="258" cy="575" r="16" fill="#f59e0b"/>
+  <text x="300" y="584" fill="#e2e8f0" font-size="24" font-family="Arial, sans-serif">Track progress with authentication</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+</svg>
