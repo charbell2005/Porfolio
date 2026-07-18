@@ -35,10 +35,10 @@ export function Hero() {
           <a href="#projects" className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300">
             View Projects
           </a>
-          <a href="/resume-placeholder.txt" download className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/10">
+          <a href="/Charbel-Barrak-Resume.pdf" download className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/10">
             Download Resume
           </a>
-          <a href="#contact" className="rounded-full border border-cyan-300/30 px-6 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10">
+          <a href="mailto:charbel.barrak901@yahoo.com" className="rounded-full border border-cyan-300/30 px-6 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10">
             Contact Me
           </a>
         </motion.div>

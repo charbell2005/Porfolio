@@ -107,8 +107,8 @@ function App() {
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
             <p className="max-w-4xl text-lg leading-8 text-slate-300">
               I am a Computer Science graduate with a strong foundation in software development, algorithms,
-              databases, and web technologies. I enjoy creating efficient solutions and building scalable
-              applications.
+              databases, and web technologies. Currently pursuing a Master's degree while working as a freelance
+              web developer, building efficient solutions and scalable applications.
             </p>
           </div>
         </motion.section>
@@ -152,7 +152,7 @@ function App() {
           transition={{ duration: 0.55, ease: 'easeOut' }}
           className="mt-24"
         >
-          <SectionHeading eyebrow="Experience" title="Internship Highlights" />
+            <SectionHeading eyebrow="Experience" title="Professional Experience" />
           <div className="grid gap-6 lg:grid-cols-2">
             {portfolioData.experience.map((item) => (
               <TimelineCard key={item.role} item={item} />
@@ -170,33 +170,70 @@ function App() {
             transition={{ duration: 0.55, ease: 'easeOut' }}
           >
             <SectionHeading eyebrow="Education" title="Academic Background" />
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
-              <div className="flex items-center gap-5">
-                <img src="/lu-logo.png" alt="Lebanese University logo" className="h-16 w-16 shrink-0 rounded-xl object-contain" />
-                <div>
-                  <p className="text-lg font-semibold text-white">Bachelor of Computer Science</p>
-                  <p className="mt-1 text-sm text-slate-400">Lebanese University · 2023–2026</p>
+            <div className="space-y-4">
+              <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
+                <div className="flex items-center gap-5">
+                  <img src="/lu-logo.png" alt="Lebanese University logo" className="h-16 w-16 shrink-0 rounded-xl object-contain" />
+                  <div>
+                    <p className="text-lg font-semibold text-white">Master's in Computer Science</p>
+                    <p className="mt-1 text-sm text-slate-400">Lebanese University · 2026 – Present</p>
+                  </div>
                 </div>
+                <p className="mt-3 text-sm text-cyan-300/80 font-medium">In Progress</p>
               </div>
-              <p className="mt-4 text-slate-300">Built a strong foundation in programming, software design, and analytical problem-solving.</p>
+              <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
+                <div className="flex items-center gap-5">
+                  <img src="/lu-logo.png" alt="Lebanese University logo" className="h-16 w-16 shrink-0 rounded-xl object-contain" />
+                  <div>
+                    <p className="text-lg font-semibold text-white">Bachelor's in Computer Science</p>
+                    <p className="mt-1 text-sm text-slate-400">Lebanese University · 2023–2026</p>
+                  </div>
+                </div>
+                <p className="mt-3 text-slate-300">Built a strong foundation in programming, software design, and analytical problem-solving.</p>
+              </div>
             </div>
           </motion.section>
 
-          <motion.section
-            id="certifications"
-            variants={sectionMotion}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, margin: '-120px' }}
-            transition={{ duration: 0.55, ease: 'easeOut' }}
-          >
-            <SectionHeading eyebrow="Certifications" title="Additional Credentials" />
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
-              <p className="text-lg font-semibold text-white">DELF B2 French Certificate</p>
-              <p className="mt-1 text-sm text-slate-400">French Embassy of Beirut · 2022</p>
-              <p className="mt-3 text-slate-300">Strong communication and adaptability skills for international and collaborative environments.</p>
-            </div>
-          </motion.section>
+          <div className="space-y-6">
+            <motion.section
+              id="certifications"
+              variants={sectionMotion}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, margin: '-120px' }}
+              transition={{ duration: 0.55, ease: 'easeOut' }}
+            >
+              <SectionHeading eyebrow="Certifications" title="Credentials" />
+              <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
+                <p className="text-lg font-semibold text-white">DELF B2 French Certificate</p>
+                <p className="mt-1 text-sm text-slate-400">French Embassy of Beirut · 2022</p>
+              </div>
+            </motion.section>
+
+            <motion.section
+              id="languages"
+              variants={sectionMotion}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, margin: '-120px' }}
+              transition={{ duration: 0.55, ease: 'easeOut' }}
+            >
+              <SectionHeading eyebrow="Languages" title="Fluency" />
+              <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <p className="text-lg font-semibold text-white">English</p>
+                    <p className="text-sm text-slate-400">Fluent</p>
+                  </div>
+                  <div className="h-px bg-white/10" />
+                  <div className="flex items-center justify-between">
+                    <p className="text-lg font-semibold text-white">French</p>
+                    <p className="text-sm text-slate-400">Fluent</p>
+                  </div>
+                </div>
+              </div>
+            </motion.section>
+          </div>
         </div>
 
         <motion.section

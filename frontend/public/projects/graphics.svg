@@ -1,0 +1,66 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="url(#bg)"/>
+  <rect x="66" y="54" width="1068" height="642" rx="34" fill="rgba(4,12,24,0.92)" stroke="rgba(255,255,255,0.10)"/>
+
+  <rect x="66" y="54" width="1068" height="62" rx="34" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="102" cy="85" r="8" fill="#f43f5e"/>
+  <circle cx="126" cy="85" r="8" fill="#f97316"/>
+  <circle cx="150" cy="85" r="8" fill="#eab308"/>
+  <text x="184" y="92" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif" font-weight="700">3D Graphics Application</text>
+
+  <text x="102" y="170" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="2">COMPUTER GRAPHICS</text>
+  <text x="102" y="220" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">Real-time 3D</text>
+  <text x="102" y="276" fill="white" font-size="54" font-family="Arial, sans-serif" font-weight="700">scene rendering</text>
+  <text x="102" y="332" fill="#cbd5e1" font-size="24" font-family="Arial, sans-serif">C++ · OpenGL · Transformations · Lighting · Shading</text>
+
+  <!-- 3D Cube wireframe -->
+  <g transform="translate(700, 160)" stroke="rgba(244,63,94,0.6)" stroke-width="2" fill="none">
+    <polygon points="0,80 120,40 120,200 0,240" fill="rgba(244,63,94,0.06)"/>
+    <polygon points="120,40 240,80 240,240 120,200" fill="rgba(249,115,22,0.06)"/>
+    <polygon points="0,80 120,40 240,80 120,120" fill="rgba(234,179,8,0.06)"/>
+    <line x1="60" y1="160" x2="180" y2="120" stroke="rgba(244,63,94,0.3)" stroke-dasharray="4 4"/>
+    <line x1="180" y1="120" x2="180" y2="280" stroke="rgba(249,115,22,0.3)" stroke-dasharray="4 4"/>
+    <line x1="60" y1="160" x2="60" y2="320" stroke="rgba(234,179,8,0.3)" stroke-dasharray="4 4"/>
+  </g>
+
+  <rect x="102" y="380" width="250" height="120" rx="22" fill="rgba(244,63,94,0.08)" stroke="rgba(244,63,94,0.24)"/>
+  <text x="128" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">LANGUAGE</text>
+  <text x="128" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">C++</text>
+  <text x="128" y="492" fill="#fb7185" font-size="18" font-family="Arial, sans-serif">Object-oriented graphics</text>
+
+  <rect x="372" y="380" width="250" height="120" rx="22" fill="rgba(249,115,22,0.08)" stroke="rgba(249,115,22,0.22)"/>
+  <text x="398" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">GRAPHICS API</text>
+  <text x="398" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">OpenGL</text>
+  <text x="398" y="492" fill="#fb923c" font-size="18" font-family="Arial, sans-serif">Rendering pipelines</text>
+
+  <rect x="642" y="380" width="356" height="120" rx="22" fill="rgba(234,179,8,0.08)" stroke="rgba(234,179,8,0.20)"/>
+  <text x="668" y="418" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">FEATURES</text>
+  <text x="668" y="462" fill="#f8fafc" font-size="40" font-family="Arial, sans-serif" font-weight="700">3D Rendering</text>
+  <text x="668" y="492" fill="#facc15" font-size="18" font-family="Arial, sans-serif">Transformations + lighting</text>
+
+  <rect x="102" y="528" width="896" height="116" rx="24" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="128" y="560" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" letter-spacing="1.5">CONCEPTS APPLIED</text>
+  <rect x="128" y="576" width="848" height="2" fill="rgba(148,163,184,0.20)"/>
+
+  <g>
+    <rect x="128" y="594" width="160" height="28" rx="14" fill="rgba(244,63,94,0.12)" stroke="rgba(244,63,94,0.25)"/>
+    <text x="156" y="613" fill="#fda4af" font-size="13" font-family="Arial, sans-serif">Projection</text>
+
+    <rect x="304" y="594" width="160" height="28" rx="14" fill="rgba(249,115,22,0.12)" stroke="rgba(249,115,22,0.25)"/>
+    <text x="336" y="613" fill="#fdba74" font-size="13" font-family="Arial, sans-serif">Shading</text>
+
+    <rect x="480" y="594" width="160" height="28" rx="14" fill="rgba(234,179,8,0.12)" stroke="rgba(234,179,8,0.25)"/>
+    <text x="508" y="613" fill="#fde047" font-size="13" font-family="Arial, sans-serif">Rasterization</text>
+
+    <rect x="656" y="594" width="180" height="28" rx="14" fill="rgba(168,162,158,0.12)" stroke="rgba(168,162,158,0.25)"/>
+    <text x="680" y="613" fill="#d6d3d1" font-size="13" font-family="Arial, sans-serif">Object Transforms</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a0510"/>
+      <stop offset="0.45" stop-color="#1c0f08"/>
+      <stop offset="1" stop-color="#0f1510"/>
+    </linearGradient>
+  </defs>
+</svg>

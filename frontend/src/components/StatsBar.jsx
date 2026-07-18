@@ -25,9 +25,9 @@ function Counter({ value, label, suffix = '' }) {
 export function StatsBar() {
   const stats = [
     { value: 2, suffix: '+', label: 'Years Experience' },
-    { value: 5, suffix: '+', label: 'Projects Built' },
+    { value: 5, suffix: '+', label: 'Projects' },
     { value: 10, suffix: '+', label: 'Technologies' },
-    { value: 1, suffix: '', label: 'Internship' },
+ 
   ]
 
   return (
