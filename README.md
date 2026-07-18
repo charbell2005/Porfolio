@@ -1,34 +1,25 @@
 # Charbel Barrak Portfolio
 
-Modern personal portfolio for a Computer Science graduate, built with React, Tailwind CSS, Framer Motion, and a lightweight Node.js/Express backend for the contact form.
+Personal portfolio for a Computer Science graduate, built with React, Vite, Tailwind CSS, Framer Motion, and a Node.js/Express backend with Nodemailer for the contact form.
 
-## What’s Included
+**Live site:** https://charbell2005.github.io/Porfolio/
 
-- Dark, professional developer aesthetic
-- Animated hero section with call-to-action buttons
-- About, Skills, Projects, Experience, Education, Certifications, and Contact sections
-- Reusable React components
-- Responsive layout for mobile and desktop
-- Placeholder project artwork stored locally in `frontend/public/projects`
-- Contact form wired to the backend API
+## Sections
 
-## Folder Structure
+- Hero with resume download and call-to-action buttons
+- Stats bar with animated counters
+- Skills grid (Frontend, Backend, AI & ML, Database, Mobile, Programming, Tools)
+- 4 featured projects with descriptions, metrics, and tech tags
+- Professional experience timeline
+- Education (Bachelor's + Master's in progress)
+- Certifications and languages
+- Contact form with real email delivery
 
-```text
-Portfolio/
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── tailwind.config.js
-│   ├── postcss.config.js
-│   └── package.json
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── .env.example
-└── .vscode/
-    └── tasks.json
-```
+## Tech Stack
+
+- **Frontend:** React 18, Vite, Tailwind CSS, Framer Motion
+- **Backend:** Node.js, Express, Nodemailer
+- **Deployment:** GitHub Pages
 
 ## Setup
 
@@ -45,24 +36,12 @@ npm run dev
 ```bash
 cd backend
 npm install
+cp .env.example .env   # add your Yahoo app password
 npm run dev
 ```
 
-## Build
+The backend runs on port 5000. The Vite dev server proxies `/api` requests to it.
 
-```bash
-cd frontend
-npm run build
-```
+## Deployment
 
-## API Endpoints
-
-- `GET /api/health`
-- `GET /api/projects`
-- `POST /api/contact`
-
-## Notes
-
-- The resume button currently points to a placeholder file in `frontend/public/resume-placeholder.txt`.
-- Replace the placeholder GitHub and LinkedIn URLs in `frontend/src/data/portfolio.js` with your real profiles.
-- The backend is intentionally small and ready for future expansion.
+The site is deployed via GitHub Pages using a GitHub Actions workflow. Pushing to `main` triggers an automatic build and deploy.
